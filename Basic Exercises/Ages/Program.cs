@@ -6,21 +6,21 @@ namespace Ages
     {
         static void Main(string[] args)
         {
-            int age = int.Parse(Console.ReadLine());
+            int ages = int.Parse(Console.ReadLine());
 
-            if(age <= 2)
+            if(ages <= 2)
             {
                 Console.WriteLine("baby");
             }
-            else if (age > 2 && age <= 13)
+            else if (ages > 2 && ages <= 13)
             {
                 Console.WriteLine("child");
             }
-            else if (age > 13 && age <= 19)
+            else if (ages > 13 && ages <= 19)
             {
                 Console.WriteLine("teenager");
             }
-            else if (age > 19 && age <= 65)
+            else if (ages > 19 && ages <= 65)
             {
                 Console.WriteLine("adult");
             }

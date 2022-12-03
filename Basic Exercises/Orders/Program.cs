@@ -22,6 +22,7 @@ namespace Orders
             }
 
             Console.WriteLine($"Total: ${total:F2}");
+            //Basic Calculations with simple code !
         }
     }
 }
